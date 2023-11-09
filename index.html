@@ -16,7 +16,10 @@
   </head>
   <body>
     <div class="wrapper">
-      <img srcset="./img/img-demo.jpg 1x, ./img/img-tech.jpg 2x" src="img/img-demo.jpg" />
+      <picture>
+        <source srcset="./img/img-demo.jpg 1x, ./img/img-tech.jpg 2x" />
+        <img src="./img/img-demo.jpg" />
+      </picture>
     </div>
   </body>
 </html>
