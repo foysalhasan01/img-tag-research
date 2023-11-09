@@ -12,12 +12,12 @@
         display: block;
       }
     </style>
-    <title>Image Optimization</title>
+    <title>Image Tag Optimization</title>
   </head>
   <body>
     <div class="wrapper">
       <picture>
-        <source srcset="./img/img-demo.jpg 1x, ./img/img-tech.jpg 2x" />
+        <source media="(min-width:601px)" srcset="./img/img-demo.jpg 1x, ./img/img-tech.jpg 2x" />
         <img src="./img/img-demo.jpg" />
       </picture>
     </div>
